@@ -1,1 +1,108 @@
 # task1
+
+  card layouthtml:-
+
+
+Inline CSS :-
+
+<div>
+ <h1 style="text-align: center;" > hello </h1>
+            <h2 style="background-color:green;color:white;text-align: center;"> hello </h2>
+            <h3 style="color:red;text-align: center;"> hello </h3>
+            <h4 style="color:orange;text-align: center;"> hello </h4>
+            <h5 style="text-align: center;"> hello </h5>
+            <h6 style="text-align: center;"> hello </h6>
+</div>
+
+External CSS:-
+
+<head>
+<link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+
+Internal CSS:-
+
+<head>
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    body {background-color: yellow!important;}
+    h5   {color: blue;text-align: center;}
+    h6    {color: red;text-align: center;}
+    .card{
+    background-color: yellow;}
+    </style>
+</head>
+
+
+container:-
+
+.container-fluid for width: 100% across all viewport and device sizes.
+
+   <div class="container mt-5">
+
+     1. mt- = margin-top.
+     2. mb- = margin-bottom.
+
+
+
+col-md-4: This class is used when the device size is medium or greater than 768px and the maximum width of container is 720px and you want the width equal to 4 columns.
+
+   <div class="col-md-4"></div>
+
+.col- Extra Small ( < 576 px )
+.col-sm- Small ( >= 576 px )
+.col-md- Medium ( >= 768 px )
+.col-lg- Large ( >= 992 px )
+.col-xl- Extra Large ( >= 1200 px )
+
+
+ <div class="card" style="width: 18rem;" id="card">
+
+   id=card :- change the back color of the card
+
+
+    <style>
+.card{
+    background-color: yellow;}
+
+    </style>
+
+
+
+  <button type="button" class="btn btn-primary btn-lg btn-block ">button</button>
+
+used to color given to the button.
+
+              <button type="button"  class="btn btn-secondary btn-lg btn-block btn btn-outline-success">button</button>
+
+
+used to color given to the button & outline sucess is used to change the color of the body.
+
+
+<hr> used to give the line in the page.
+
+
+
+<p class="float-right">Made by @Arun Kumar</p>
+
+     <p class="">hds</p> used to give the headling at the ending of the page.
+
+
+
+<div class="card-header">
+
+ the card-header class to create header of a Bootstrap card − <div class="card-header">.
+
+
+
+
+
+
+
+
+
+
+
+
+
